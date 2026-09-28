@@ -140,5 +140,6 @@ The EEPROM dumps from this board are **not** published (they contain the board s
 
 - Driver logic ported from the open‑source **Glasgow Interface Explorer** `program-mec16xx` applet.
 - Firmware: **ergProgrammer** — an ESP32 multi‑memory programmer (SPI NOR / I²C / Microwire / MEC16xx JTAG) with a serial/telnet shell.
+- SMD rework (JTAG1 wiring, strap resistor) by **Cristian Popescu** ([@pcristix](https://github.com/pcristix)) — thank you!
 
 MIT — see `LICENSE`. Provided as‑is; you are responsible for using it only on hardware you own.
